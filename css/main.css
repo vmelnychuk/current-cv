@@ -1,4 +1,53 @@
+
+body,
+h1, h2, h3 {
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #000;
+}
+
 body {
-	font-family: sans-serif;
-	background-color: #eee;
+    background-color: #fff;
+}
+
+h2.contacts,
+h2.education {
+    font-size: 20px;
+}
+
+h2.work-experiense {
+    font-size: 20px;
+}
+
+a.contact {
+
+}
+
+ul.contacts {
+    list-style-type: none;
+    padding: 0;
+}
+ul.contacts > li {
+    display: inline;
+    padding: 10px;
+}
+
+a.contact {
+    color: #000;
+}
+
+a.contact:link,
+a.contact:visited,
+a.contact:active {
+    text-decoration: none;
+}
+
+a.contact:hover {
+    text-decoration: underline;
+}
+
+ul.education {
+    list-style-type: none;
+    padding-left: 10px;
 }
