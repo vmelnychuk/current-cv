@@ -3,3 +3,7 @@
 Also there is configuration for CV, to show only relevant parts.
 
 *As part of testing note:* this http-server on node.js as workaround of CORS.
+
+### TODO
+- add XSD schema for cv.xml
+- add SVG for images
