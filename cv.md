@@ -1,8 +1,20 @@
-# Vasyl Melnychuk
+## Curriculum Vitae: Vasyl Melnychuk
 
-## Contact
+## Personal Data
+- name: Vasyl Melnychuk
 - email: vmmelnychuk@gmail.com
-- web-site: vmelnychuk.github.io
+- skype: vasyl.melnychuk.by
+- github: github.com/vmelnychuk
+- nationality: Ukrainian
+
+## Profile
+- Production experience with Java over 6 years
+- Daily applying design patterns and clean code practices
+- Ability to perform DevOps tasks with Linux-based environment
+- Extensive experience with TDD/BDD
+- Developing of Java EE (EJB, JAX-RS, JPA) and Spring-based projects
+- Extensive experience in front-end: HTML, CSS, JavaScript, JQuery
+- Using best practice from inducstry: agile, kanban, scrum, pair programming, continuous integration and delivery
 
 ## Education
 - February 2013, MSc in Computer Science, National University of Kyiv-Mohyla Academy, Kyiv
@@ -45,9 +57,9 @@ Service for generation HTML, PDF from XML documents. Creating of XSL-transformat
 
 ## Technical skills
 ### Programming Languages
-Java, Groovy, JavaScript, Python, Kotlin, Shell, Swift, C
+Java (6+ years of usage), Groovy (3+ years of usage), JavaScript (6+ years of usage), Python (3+ year of usage), Shell (4+ years of usage)
 ### Technologies and Frameworks
-Java Core, JAX-RS, EJB3.x, Spring Core/MVC/Boot/Cloud, Apache Commons, Guava, JPA(Hibernate), JUnit, Mockito, Spock, Selenium, REST, SOAP, JSON, XML, XSLT, SAML, SSO
+Java Core, JAX-RS, EJB3.x, Spring Core/MVC/Boot/Cloud, Apache Commons, Guava, JPA (Hibernate), JUnit, Mockito, Spock, Selenium, REST, SOAP, JSON, XML, XSLT, SAML, SSO
 ### FrontEnd
 HTML, CSS, JavaScript, LESS, Virtual/Shadow DOM, jQuery, Bootstrap, Angular, AJAX, React, underscore, ECMAScript 6
 ### Build Systems
