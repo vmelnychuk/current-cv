@@ -1,6 +1,7 @@
-
-body,
-h1, h2, h3 {
+/* Html elements*/
+h1,
+h2,
+h3 {
     font-family: sans-serif;
     font-weight: 100;
     letter-spacing: 1px;
@@ -8,20 +9,16 @@ h1, h2, h3 {
 }
 
 body {
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #000;
     background-color: #fff;
 }
 
-h2.contacts,
-h2.education {
+/* Contacts                                                        */
+h2.contacts{
     font-size: 20px;
-}
-
-h2.work-experiense {
-    font-size: 20px;
-}
-
-a.contact {
-
 }
 
 ul.contacts {
@@ -47,7 +44,17 @@ a.contact:hover {
     text-decoration: underline;
 }
 
+/* Education                                                       */
+h2.education {
+    font-size: 20px;
+}
+
 ul.education {
     list-style-type: none;
     padding-left: 10px;
+}
+
+/* Work Experiense                                                 */
+h2.work-experiense {
+    font-size: 20px;
 }
