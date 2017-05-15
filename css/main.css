@@ -1,5 +1,5 @@
-/* Html elements*/
-h1,
+/* Html elements */
+/*h1,
 h2,
 h3 {
     font-family: sans-serif;
@@ -14,10 +14,25 @@ body {
     letter-spacing: 1px;
     color: #000;
     background-color: #fff;
+}*/
+
+/* Main HTML elements                                               */
+body {
+    font-family: sans-serif;
+}
+
+/* Title                                                            */
+section.title > h1 {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 /* Contacts                                                        */
-h2.contacts{
+section.contacts > h2 {
+    display: none;
+}
+
+/*h2.contacts{
     font-size: 20px;
 }
 
@@ -42,19 +57,19 @@ a.contact:active {
 
 a.contact:hover {
     text-decoration: underline;
-}
+}*/
 
 /* Education                                                       */
-h2.education {
+/*h2.education {
     font-size: 20px;
 }
 
 ul.education {
     list-style-type: none;
     padding-left: 10px;
-}
+}*/
 
 /* Work Experiense                                                 */
-h2.work-experiense {
+/*h2.work-experiense {
     font-size: 20px;
-}
+}*/
