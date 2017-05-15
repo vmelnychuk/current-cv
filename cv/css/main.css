@@ -1,0 +1,50 @@
+/* Main HTML elements */
+html {
+}
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 0px;
+}
+
+/* Title section */
+section.title > h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Contacts section */
+section.contacts {
+    text-align: center;
+}
+
+ul.two-column-list {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+    width: 90%;
+}
+
+ul.two-column-list li {
+    float: left;
+    width: 50%;
+}
+
+/* Summary section */
+section.summary {
+    font-style: italic;
+}
+
+/* Education section */
+
+/* Relevant experience */
+
+/* Software development skills */
+
+/* Other professional skills  */
+
+/* Personal interests */
+
+
+
