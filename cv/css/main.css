@@ -5,6 +5,7 @@ html {
 body {
     font-family: Tahoma, Geneva, sans-serif;
     margin: 0px;
+    font-size: 13px;
 }
 
 /* Title section */
@@ -23,20 +24,49 @@ ul.two-column-list {
     list-style-type: none;
     padding-left: 0px;
     margin: 0px;
-    width: 90%;
 }
 
 ul.two-column-list li {
-    float: left;
-    width: 50%;
+    display: inline-block;
 }
+
+span.contact-label {
+    color: #888888;
+}
+
+span.contact-value {
+    color: #000000;
+}
+
+a.contact:link,
+a.contact:visited,
+a.contact:active {
+    color: #000000;
+    text-decoration: none;
+}
+
+a.contact:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+
 
 /* Summary section */
 section.summary {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
     font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 /* Education section */
+section.education h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 /* Relevant experience */
 
