@@ -68,11 +68,23 @@ section.education h2 {
     font-weight: 500;
 }
 
-/* Relevant experience */
+/* Experience */
+section.experience h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 /* Software development skills */
+section.main-skills h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 /* Other professional skills  */
+section.other-skills h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
 
 /* Personal interests */
 
