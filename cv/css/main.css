@@ -20,6 +20,10 @@ section.contacts {
     text-align: center;
 }
 
+section.contacts > header > h2 {
+    display: none;
+}
+
 ul.two-column-list {
     list-style-type: none;
     padding-left: 0px;
@@ -32,6 +36,7 @@ ul.two-column-list li {
 
 span.contact-label {
     color: #888888;
+    font-style: italic;
 }
 
 span.contact-value {
@@ -50,16 +55,21 @@ a.contact:hover {
     text-decoration: underline;
 }
 
-
-
 /* Summary section */
 section.summary {
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
-    font-style: italic;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
+}
+
+section.summary > header > h2 {
+    display: none;
+}
+
+section.summary > p {
+    font-style: italic;
 }
 
 /* Education section */
@@ -68,20 +78,82 @@ section.education h2 {
     font-weight: 500;
 }
 
+ul.education-list > li {
+    margin-bottom: 20px;
+}
+
+span.university-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+span.university-location {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+span.degree {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-style: italic;
+}
+
+span.years {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-style: italic;
+}
+
 /* Experience */
 section.experience h2 {
     text-transform: uppercase;
     font-weight: 500;
 }
 
-/* Software development skills */
-section.main-skills h2 {
-    text-transform: uppercase;
-    font-weight: 500;
+ul.experience-list > li {
+    margin-bottom: 20px;
 }
 
-/* Other professional skills  */
-section.other-skills h2 {
+span.company-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+span.company-location {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+
+}
+
+span.position {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-style: italic;
+}
+
+span.period {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-style: italic;
+}
+
+span.description {
+    display: inline-block;
+    width: 85%;
+}
+
+/* Skills and Qualifications */
+section.skills-and-qualifications h2 {
     text-transform: uppercase;
     font-weight: 500;
 }
