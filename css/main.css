@@ -1,75 +1,172 @@
-/* Html elements */
-/*h1,
-h2,
-h3 {
-    font-family: sans-serif;
-    font-weight: 100;
-    letter-spacing: 1px;
-    color: #000;
+/* Main HTML elements */
+html {
 }
 
 body {
-    font-family: sans-serif;
-    font-weight: 100;
-    letter-spacing: 1px;
-    color: #000;
-    background-color: #fff;
-}*/
-
-/* Main HTML elements                                               */
-body {
-    font-family: sans-serif;
+    font-family: Tahoma, Geneva, sans-serif;
+    margin: 0px;
+    font-size: 14px;
 }
 
-/* Title                                                            */
+/* Title section */
 section.title > h1 {
     text-transform: uppercase;
     text-align: center;
+    font-weight: 700;
 }
 
-/* Contacts                                                        */
-section.contacts > h2 {
+/* Contacts section */
+section.contacts {
+    text-align: center;
+}
+
+section.contacts > header > h2 {
     display: none;
 }
 
-/*h2.contacts{
-    font-size: 20px;
-}
-
-ul.contacts {
+ul.two-column-list {
     list-style-type: none;
-    padding: 0;
-}
-ul.contacts > li {
-    display: inline;
-    padding: 10px;
+    padding-left: 0px;
+    margin: 0px;
 }
 
-a.contact {
-    color: #000;
+ul.two-column-list li {
+    display: inline-block;
+}
+
+span.contact-label {
+    color: #888888;
+    font-style: italic;
+}
+
+span.contact-value {
+    color: #000000;
 }
 
 a.contact:link,
 a.contact:visited,
 a.contact:active {
+    color: #000000;
     text-decoration: none;
 }
 
 a.contact:hover {
+    color: #000000;
     text-decoration: underline;
-}*/
-
-/* Education                                                       */
-/*h2.education {
-    font-size: 20px;
 }
 
-ul.education {
-    list-style-type: none;
-    padding-left: 10px;
-}*/
+/* Summary section */
+section.summary {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-/* Work Experiense                                                 */
-/*h2.work-experiense {
-    font-size: 20px;
-}*/
+section.summary > header > h2 {
+    display: none;
+}
+
+section.summary > p {
+    font-style: italic;
+}
+
+/* Education section */
+section.education h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+ul.education-list > li {
+    margin-bottom: 20px;
+}
+
+span.university-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+span.university-location {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+span.degree {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-style: italic;
+}
+
+span.years {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-style: italic;
+}
+
+/* Experience */
+section.experience h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+ul.experience-list > li {
+    margin-bottom: 20px;
+}
+
+span.company-name {
+    font-weight: bold;
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+}
+
+span.company-location {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+
+}
+
+span.position {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-style: italic;
+}
+
+span.period {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    font-style: italic;
+}
+
+span.description {
+    display: inline-block;
+    width: 85%;
+}
+
+/* Skills and Qualifications */
+section.skills-and-qualifications h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+span.skill-label {
+    font-weight: 700;
+}
+
+span.skill-value {
+    display: inline-block;
+    width: 90%;
+}
+
+
+
+
